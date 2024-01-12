@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/digi-labs/static/css/main.f673579f.css",
+    "main.js": "/digi-labs/static/js/main.ed55c454.js",
+    "static/media/phone.png": "/digi-labs/static/media/phone.894e3cbdb2b9d297ed0e.png",
+    "static/media/brandLogos.png": "/digi-labs/static/media/brandLogos.ee301bdb751466c55fc6.png",
+    "index.html": "/digi-labs/index.html",
+    "main.f673579f.css.map": "/digi-labs/static/css/main.f673579f.css.map",
+    "main.ed55c454.js.map": "/digi-labs/static/js/main.ed55c454.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f673579f.css",
+    "static/js/main.ed55c454.js"
+  ]
+}
