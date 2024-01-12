@@ -1,0 +1,23 @@
+.alignHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: larger;
+    width: 510px;
+    height: 470px;
+}
+
+.purple{
+    color: purple;
+}
+.lightFontColor {
+    color: rgb(134, 133, 133);
+}
+
+@media only screen and (max-width: 507px) {
+    .alignHeader {
+        width: 414px;
+    }
+}

@@ -1,0 +1,75 @@
+.announcement {
+    /* height: 1.7rem; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-start;
+    padding: 0.5rem;
+    /* width: 100%; */
+}
+
+.announcement>button {
+    border-radius: 8px;
+    margin-right: 1.1rem;
+    border: 1px solid rgb(201, 201, 201);
+    color: black;
+    background-color: rgb(229, 229, 229);
+}
+
+.mainNav {
+    border-top: 1px solid rgb(201, 201, 201);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    /* display: flex;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%; */
+    margin-bottom: 3rem;
+}
+
+.custom-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 4rem;
+    /* display: contents; */
+}
+
+/* .optionsList {
+    display: flex;
+    list-style: none;
+    padding-left: 18rem;
+
+}
+
+.optionsList>li {
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+} */
+
+.loginButton>button {
+    border-radius: 10px;
+    border: 0.9px solid rgb(201, 201, 201);
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    color: rgb(98, 97, 97);
+    /* margin-left: 15rem; */
+    font-size: medium;
+    width: 6rem;
+    height: 2rem;
+}
+
+.loginButton>button:hover {
+    color: rgb(132, 132, 240);
+    cursor: pointer;
+}
+
+.loginIcon {
+    margin-left: 0.2rem;
+}
+

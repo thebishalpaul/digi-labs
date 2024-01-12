@@ -1,0 +1,35 @@
+.cs-main{
+    margin-top: 15rem;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons>*{
+    margin: 1rem;
+    border-radius: 9px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: transform .2s;
+    justify-content: center;
+    width: 188px;
+    border-style: none;
+}
+.buttons>button:first-child {
+    background-color: rgb(84, 2, 84);
+    color: white;
+    
+}
+
+.buttons>button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 443px) {
+    .buttons{
+        flex-direction: column;
+    }
+}

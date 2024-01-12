@@ -1,0 +1,14 @@
+.secondCardContainer>p {
+    margin-top: 2rem;
+}
+
+.compareDiv {
+    display: flex;
+    margin-top: 2rem;
+    transition: transform .4s;
+}
+
+.compareDiv:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

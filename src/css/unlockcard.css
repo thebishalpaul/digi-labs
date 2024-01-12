@@ -1,0 +1,31 @@
+.main>* {
+    margin: 13px;
+}
+
+.main>button {
+    background-color: rgb(84, 2, 84);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: transform .2s;
+}
+
+.main>button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.background {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.862), rgba(243, 240, 240, 0.853)),
+        url("https://i.stack.imgur.com/GySvQ.png");
+    ;
+}
+
+
+
+.unlockfooter {
+    margin-top: 1rem;
+}
+

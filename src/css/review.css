@@ -1,0 +1,34 @@
+.review-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.review-main>img {
+    width: 6rem;
+    height: 7rem;
+
+}
+
+.customer-review {
+    margin-bottom: 3rem;
+    width: 30%;
+    font-size: large;
+}
+
+.customerDetails {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.customerDetails>* {
+    margin: 0.1rem;
+}
+
+.designation{
+    margin-bottom: 0.8rem;
+}
